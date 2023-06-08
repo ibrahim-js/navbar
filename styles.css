@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    outline: none;
+}
+
+body {
+    background: #F5EFE7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    background: white;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo__link {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.search__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(48, 48, 48);
+    padding: .2rem .5rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.search__icon {
+    fill: rgb(48, 48, 48);
+}
+
+.search__input {
+    padding: .2rem .5rem;
+    border: none;
+}
+
+.search__input::placeholder {
+    color: rgb(48, 48, 48);
+}
+
+.icons__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu__icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+}
